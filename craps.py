@@ -1,6 +1,8 @@
+#Function generates sum of randomly rolled 2 dice repiting the action in a loop until the conditions of winning or losing are met
 import random
 
 def roll_dice():
+   
     return random.randint(1, 6) + random.randint(1, 6)
 
 def play_game():
